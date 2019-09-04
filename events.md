@@ -1,6 +1,6 @@
 ---
 layout: events
 title: Events
-banner-url: #
-banner-alt: banner
+banner-url: /assets/images/smw_avenue.jpg
+banner-alt: The Avenue
 ---

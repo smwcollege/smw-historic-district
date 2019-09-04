@@ -1,6 +1,6 @@
 ---
 layout: visit
 title: Visit
-banner-url: #
-banner-alt: banner
+banner-url: /assets/images/smw_avenue.jpg
+banner-alt: The Avenue
 ---
