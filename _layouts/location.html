@@ -8,27 +8,31 @@ layout: page
                 <a href="/about#locations">🠐 Return to locations</a>
             </div>
             <h1>{{page.title}}</h1>
-            {{content}}
+                {{content}}
             <div class="two-column quick-facts">
                 <div class="column">
                     <div class="label">Year built</div>
                     <div class="info">{{page.year}}</div>
                 </div>
+                {% if page.style %}
                 <div class="column">
                     <div class="label">Architecture style</div>
                     <div class="info">{{page.style}}</div>
                 </div>
+                {% endif %}
+                {% if page.architect %}
                 <div class="column" style="flex-grow: 1;">
                     <div class="label">Architect</div>
                     <div class="info">{{page.architect}}</div>
                 </div>
+                {% endif %}
             </div>
         </div>
         <div class="column padded">
             <div class="slick-slider">
-                {% if page.photo-1 %}<div><img src="{{page.photo-1}}" alt="{{page.alt-1}}" /></div>{% endif %}
-                {% if page.photo-2 %}<div><img src="{{page.photo-2}}" alt="{{page.alt-2}}" /></div>{% endif %}
-                {% if page.photo-3 %}<div><img src="{{page.photo-3}}" alt="{{page.alt-3}}" /></div>{% endif %}
+                {% if page.photo-1 %}<div><img src="/assets/images/locations/{{page.photo-1}}" alt="{{page.alt-1}}" /></div>{% endif %}
+                {% if page.photo-2 %}<div><img src="/assets/images/locations/{{page.photo-2}}" alt="{{page.alt-2}}" /></div>{% endif %}
+                {% if page.photo-3 %}<div><img src="/assets/images/locations/{{page.photo-3}}" alt="{{page.alt-3}}" /></div>{% endif %}
             </div>
         </div>
     </div>

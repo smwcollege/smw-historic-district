@@ -7,45 +7,21 @@ layout: page
 </div>
 <section id="locations">
     <div class="two-column location-shuffle">
-        <figure class="js-item column">
-            <a href="/locations/blessed-sacrament-chapel">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/smw_avenue.jpg" alt=" " />
+        {% for location in site.data.locations %}
+            <figure class="js-item column">
+                <a href="/locations/{{ location.slug }}">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="/assets/images/locations/{{ location.thumb }}" alt=" " />
+                        </div>
+                        <div class="card-info">
+                            <h3>{{ location.name }}</h3>
+                            {{ location.year }}
+                        </div>
                     </div>
-                    <div class="card-info">
-                        <h3>Blessed Sacrament Chapel</h3>
-                        1890
-                    </div>
-                </div>
-            </a>
-        </figure>
-        <figure class="js-item column">
-            <a href="/locations/blessed-sacrament-chapel">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/smw_avenue.jpg" alt=" " />
-                    </div>
-                    <div class="card-info">
-                        <h3>Blessed Sacrament Chapel</h3>
-                        1890
-                    </div>
-                </div>
-            </a>
-        </figure>
-        <figure class="js-item column">
-            <a href="/locations/blessed-sacrament-chapel">
-                <div class="card">
-                    <div class="card-image">
-                        <img src="/assets/images/smw_avenue.jpg" alt=" " />
-                    </div>
-                    <div class="card-info">
-                        <h3>Blessed Sacrament Chapel</h3>
-                        1890
-                    </div>
-                </div>
-            </a>
-        </figure>
+                </a>
+            </figure>
+        {% endfor %}
     </div>
 </section>
 <div class="wrap">
