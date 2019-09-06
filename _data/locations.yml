@@ -10,8 +10,80 @@
   thumb: Blessed-Sacrament-Chapel-sm.jpg
   type: building
 
+- name: Cemetery gates
+  year: 1920
+  slug: cemetery-gates
+  thumb: #
+  type: structure
+
 - name: Christ the Teacher Statue
   year: 1880/1920
   slug: christ-the-teacher-statue
   thumb: #
   type: object
+
+- name: Fountain
+  year: 1920
+  slug: fountain
+  thumb: #
+  type: object
+
+- name: Grotto Bridge
+  year: 1922
+  slug: grotto-bridge
+  thumb: #
+  type: structure
+
+- name: Hulman Hall
+  year: 1969
+  slug: hulman-hall
+  thumb: #
+  type: building
+
+- name: Le Fer Residence Hall
+  year: 1923
+  slug: le-fer-residence-hall
+  thumb: #
+  type: building
+
+- name: Main Entrance Gate
+  year: 1918
+  slug: main-entrance-gate
+  thumb: #
+  type: structure
+
+- name: Our Lady of the Campus Statue
+  year: 1904
+  slug: our-lady-of-the-campus-statue
+  thumb: #
+  type: object
+
+- name: Our Lady of Fatima Shrine
+  year: 1954
+  slug: our-lady-of-fatima-shrine
+  thumb: #
+  type: structure
+
+- name: Our Lady of Lourdes Grotto
+  year: 1918
+  slug: our-lady-of-lourdes-grotto
+  thumb: #
+  type: structure
+
+- name: Outdoor Way of the Cross
+  year: 1938
+  slug: outdoor-way-of-the-cross
+  thumb: #
+  type: object
+
+- name: Saint Mary Shrine
+  year: 1940
+  slug: saint-mary-shrine
+  thumb: #
+  type: structure
+
+- name: Sheridan Landscape Plan
+  year: 1923-24
+  slug: sheridan-landscape-plan
+  thumb: #
+  type: structure
