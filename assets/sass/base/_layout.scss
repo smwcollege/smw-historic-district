@@ -23,6 +23,10 @@
         flex-direction: column;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     .cta {
         padding: 20px 40px;
         display: flex;
@@ -42,12 +46,54 @@
 
         h2 {
             color: $primary;
-            text-decoration: none;
+            margin: 30px 0 10px;
         }
 
         .cta-description {
-            text-decoration: none;
             color: $text;
         }
+    }
+}
+
+.two-column {
+    display: flex;
+    .column {
+        width: 50%;
+    }
+
+    @include breakpoint (mobileonly) {
+        flex-direction: column;
+        .column {
+            width: 90%;
+        }
+    }
+}
+
+img.fullwidth {
+    height: 240px;
+    object-fit: cover;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+iframe.fullwidth {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fullwidth {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+.event {
+    margin-bottom: 80px;
+
+    &:last-of-type {
+        margin-bottom: 0;
     }
 }

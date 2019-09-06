@@ -11,7 +11,7 @@ footer {
 
     .copyright {
         flex-grow: 1;
-        font-size: 14px;
+        font-size: 12px;
 
         @include breakpoint(mobileonly) {
             padding-bottom: 30px;

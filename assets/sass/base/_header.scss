@@ -23,7 +23,11 @@ header {
             flex-grow: 1;
 
             svg {
-                height: 50px;
+                width: 400px;
+
+                @include breakpoint(mobileonly) {
+                    width: 100%;
+                }
             }
         }
 
@@ -70,12 +74,13 @@ header {
 
         h1 {
             color: white;
-            transform: translateY(50%);
             align-self: center;
             font-size: 60px;
+            padding: 0 20px;
+            border: none;
 
-            @include breakpoint(tablet) {
-                
+            @include breakpoint(mobileonly) {
+                font-size: 45px;
             }
         }
     }

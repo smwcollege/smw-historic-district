@@ -2,8 +2,12 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
+}
+
+p {
+  line-height: 1.5em;
 }
 
 h1, h2, h3, h4 {
@@ -14,13 +18,22 @@ h1, h2, h3, h4 {
 
 h1 {
   font-size: 45px;
+  padding-bottom: 30px;
+  border-bottom: 2px solid $bg-light;
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 32px;
 }
 
 a {
   color: $accent;
-  text-decoration: none;
+}
+
+ul {
+  padding-bottom: 20px;
+}
+
+li {
+  line-height: 1.5em;
 }
