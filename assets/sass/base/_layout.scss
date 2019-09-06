@@ -102,6 +102,78 @@ iframe.fullwidth {
     font-size: 28px;
 }
 
+// TEMPALTE: ABOUT
+
+#locations {
+    background: $bg-light;
+    padding: 40px 0;
+
+    .location-shuffle {
+        width: 85%;
+        margin: 0 auto;
+
+        @include breakpoint(mobileonly) {
+            width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: $text;
+        }
+
+        .column {
+            width: 46%;
+            margin: 2% 2%;
+
+            @include breakpoint(mobileonly) {
+                width: 90%;
+                margin: 0 20px;
+                padding: 20px 0;
+            }
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .card-image {
+                width: 33%;
+                margin-right: 40px;
+
+                @include breakpoint(mobileonly) {
+                    width: 50%;
+                    margin-right: 20px;
+                }
+
+                img {
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .card-info {
+                h3 {
+                    color: $primary;
+                    font-size: 24px;
+                    margin: 0 0 10px 0;
+                }
+            }
+
+            &:hover {
+                background: $primary;
+                color: white;
+
+                h3 {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
 // TEMPLATE: EVENTS
 
 .event {
