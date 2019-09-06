@@ -28,6 +28,10 @@ h2 {
 
 a {
   color: $accent;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 ul {

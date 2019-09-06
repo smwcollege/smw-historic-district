@@ -124,7 +124,7 @@ iframe.fullwidth {
 }
 
 .location .padded {
-    padding: 100px;
+    padding: 5%;
 
     @include breakpoint(mobileonly) {
         padding: 40px 20px;
@@ -143,3 +143,12 @@ iframe.fullwidth {
         margin: 0;
     }
 }
+
+.slick-slider>.slick-prev {
+    left: 10px;
+    z-index: 1;
+  }
+  .slick-slider>.slick-next {
+    right: 10px;
+    z-index: 1;
+  }

@@ -25,8 +25,28 @@ layout: page
             </div>
         </div>
         <div class="column padded">
-            <img src="{{page.photo-1}}" alt="{{page.alt-1}}" />
+            <div class="slick-slider">
+                {% if page.photo-1 %}<div><img src="{{page.photo-1}}" alt="{{page.alt-1}}" /></div>{% endif %}
+                {% if page.photo-2 %}<div><img src="{{page.photo-2}}" alt="{{page.alt-2}}" /></div>{% endif %}
+                {% if page.photo-3 %}<div><img src="{{page.photo-3}}" alt="{{page.alt-3}}" /></div>{% endif %}
+            </div>
         </div>
     </div>
+    {% if page.map %}
     <iframe src="{{page.map}}" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    {% endif %}
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slick-slider').slick({
+                arrows: true,
+                dots: true,
+                infinite: true
+            });
+        });
+      </script>
 </section>
