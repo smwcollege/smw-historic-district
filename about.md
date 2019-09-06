@@ -2,7 +2,6 @@
 layout: about
 title: About
 banner-url: /assets/images/smw_avenue.jpg
-banner-alt: The Avenue
 ---
 Listed on the National Register of Historic Places, the Saint Mary-of-the Woods Historic District consists of a total of 66 buildings, sites, structures and objects. They include buildings such as Guerin Hall, Le Fer Hall, Hulman Hall and the Rooney Library, all owned by Saint Mary-of-the-Woods College, as well as impressive religious buildings owned by the Sisters of Providence such as the Church of the Immaculate Conception, the Blessed Sacrament Chapel, Sisters of Providence Motherhouse/Providence Hall and the St. Anne Shell Chapel.
 

@@ -4,7 +4,7 @@ layout: default
 <header>
     {% include nav.html %}
     <div class="banner">
-        <img src="{{page.banner-url}}" alt="page.banner-alt" />
+        <img src="{% if page.banner-url == blank %}{{page.banner-url}}{% else %}/assets/images/smw_avenue.jpg{% endif %}" alt=" " />
     </div>
 </header>
 <section class="content">

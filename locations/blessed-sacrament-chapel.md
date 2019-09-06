@@ -1,8 +1,6 @@
 ---
 layout: location
 title: Blessed Sacrament Chapel
-banner-url: /assets/images/smw_avenue.jpg
-banner-alt: The Avenue
 year: 1920
 style: Renaissance Revival
 architect: D.A. Bohlen and Son
