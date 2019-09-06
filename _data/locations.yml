@@ -2,8 +2,12 @@
   year: 1900
   slug: archangel-saint-michael-statue
   thumb: archangel-saint-michael-statue-sm.jpg
+  type: object
 
 - name: Blessed Sacrament Chapel
   year: 1920
   slug: blessed-sacrament-chapel
   thumb: Blessed-Sacrament-Chapel-sm.jpg
+  type: building
+
+- name: 
