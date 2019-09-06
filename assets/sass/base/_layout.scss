@@ -57,6 +57,7 @@
 
 .two-column {
     display: flex;
+    flex-wrap: wrap;
     .column {
         width: 50%;
     }
@@ -64,7 +65,8 @@
     @include breakpoint (mobileonly) {
         flex-direction: column;
         .column {
-            width: 90%;
+            width: 100%;
+            padding: 40px 20px;
         }
     }
 }
@@ -90,10 +92,54 @@ iframe.fullwidth {
     margin-right: -50vw;
 }
 
+.label {
+    margin-bottom: 10px;
+}
+
+.info {
+    font-family: 'Vollkorn', serif;
+    color: $primary;
+    font-size: 28px;
+}
+
+// TEMPLATE: EVENTS
+
 .event {
     margin-bottom: 80px;
 
     &:last-of-type {
         margin-bottom: 0;
+    }
+}
+
+// TEMPLATE: LOCATION
+
+.return a {
+    color: $primary;
+    text-decoration: none;
+    
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.location .padded {
+    padding: 100px;
+
+    @include breakpoint(mobileonly) {
+        padding: 40px 20px;
+    }
+}
+
+.location img {
+    width: 100%;
+}
+
+.quick-facts .column {
+    margin: 20px 0;
+
+    @include breakpoint(mobileonly) {
+        padding: 20px 0;
+        margin: 0;
     }
 }

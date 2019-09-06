@@ -1,0 +1,32 @@
+---
+layout: page
+---
+<section class="location">
+    <div class="two-column">
+        <div class="column padded">
+            <div class="return">
+                <a href="/about#locations">🠐 Return to locations</a>
+            </div>
+            <h1>{{page.title}}</h1>
+            {{content}}
+            <div class="two-column quick-facts">
+                <div class="column">
+                    <div class="label">Year built</div>
+                    <div class="info">{{page.year}}</div>
+                </div>
+                <div class="column">
+                    <div class="label">Architecture style</div>
+                    <div class="info">{{page.style}}</div>
+                </div>
+                <div class="column" style="flex-grow: 1;">
+                    <div class="label">Architect</div>
+                    <div class="info">{{page.architect}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="column padded">
+            <img src="{{page.photo-1}}" alt="{{page.alt-1}}" />
+        </div>
+    </div>
+    <iframe src="{{page.map}}" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+</section>
