@@ -11,8 +11,6 @@ Saint Mary-of-the-Woods College
 
 The oldest Catholic college in Indiana, Saint Mary-of-the-Woods College offers coeducational campus, online and graduate programs. True to its foundation, a liberal arts curriculum infused with student-centered academic innovation, faith and leadership empowers students to transform themselves, their communities and their world. [Learn more](https://www.smwc.edu/about/history/)
 
-![fullwidth-image](/assets/images/smw_avenue.jpg){:class="fullwidth"}
-
 The Sisters of Providence
 ---
 
