@@ -13,7 +13,7 @@
 - name: Cemetery gates
   year: 1920
   slug: cemetery-gates
-  thumb: #
+  thumb: Cemetery-Gates-horizontal-sm.jpg
   type: structure
 
 - name: Christ the Teacher Statue
@@ -28,15 +28,33 @@
   thumb: #
   type: object
 
+- name: Gate House
+  year: 1925
+  slug: gate-house
+  thumb: Gate-House-sm.jpg
+  type: building
+
+- name: Goodwin Guest House
+  year: 1965  
+  slug: goodwin-guest-house
+  thumb: guest-house-exterior-sm.jpg
+  type: building
+
 - name: Grotto Bridge
   year: 1922
   slug: grotto-bridge
-  thumb: #
+  thumb: Bridge-sm.jpg
   type: structure
 
 - name: Hulman Hall
   year: 1969
   slug: hulman-hall
+  thumb: Hulman-Hall-exterior-sm.jpg
+  type: building
+
+- name: Lourdes Hall (Infirmiary Building)
+  year: 1921
+  slug: lourdes-hall
   thumb: #
   type: building
 
@@ -75,6 +93,12 @@
   slug: outdoor-way-of-the-cross
   thumb: #
   type: object
+
+- name: Rooney Library
+  year: 1964
+  slug: rooney-library
+  thumb: #
+  type: building
 
 - name: Saint Mary Shrine
   year: 1940

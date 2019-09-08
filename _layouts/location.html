@@ -32,6 +32,12 @@ layout: page
                     <div class="info">{{page.sculptor}}</div>
                 </div>
                 {% endif %}
+                {% if page.designer %}
+                <div class="column" style="flex-grow: 1;">
+                    <div class="label">Designer</div>
+                    <div class="info">{{page.designer}}</div>
+                </div>
+                {% endif %}
             </div>
         </div>
         <div class="column padded">
@@ -55,7 +61,10 @@ layout: page
             $('.slick-slider').slick({
                 arrows: true,
                 dots: true,
-                infinite: true
+                infinite: true,
+                speed: 300,
+                slidesToShow: 1,
+                adaptiveHeight: true
             });
         });
       </script>
