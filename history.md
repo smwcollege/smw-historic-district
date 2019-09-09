@@ -1,7 +1,7 @@
 ---
 layout: history
 title: History
-banner-url: /assets/images/smw_avenue.jpg
+banner-url: /assets/images/locations/Le-Fer-Hall-exterior.jpg
 ---
 Saint Mary-of-the-Woods Historic District reflects nearly two centuries of educational and religious thought and leadership. In 1840, Mother Theodore Guerin and five Sisters of Providence left their convent in France to establish a school for young women in Indiana. Arriving in Vigo County in October, they founded the Sisters of Providence of Saint Mary-of-the-Woods and Saint Mary’s Academy, now Saint Mary-of-the-Woods College (SMWC).
 
