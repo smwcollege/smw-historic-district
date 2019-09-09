@@ -16,6 +16,8 @@ The Sisters of Providence
 
 The Sisters of Providence is community of Roman Catholic women religious (vowed sisters). They live out Jesus’ radical Gospel message by dedicating their lives to love, mercy and justice. The Sisters of Providence collaborate with others to create a more just and hope-filled world through prayer, education, service and advocacy. They minister across the United States and in Asia. [Learn more](https://spsmw.org/about/)
 
+![fullwidth-image](/assets/images/smw_avenue.jpg){:class="fullwidth"}
+
 The Bohlen Architects
 ---
 Following his formal education in architecture at University of Holzminden, young Diederich Bohlen hiked across northern Germany and Poland, studying and sketching construction methods. In 1850, the 22-year-old left his native Germany for the United States. Once in the U.S., he worked for various firms, including Francis Costigan, the top Indianapolis architect. In 1853, he opened the firm D.A. Bohlen in Indianapolis. One of his first clients was the Sisters of Providence at Saint Mary-of-the-Woods, Indiana, who hired him to replace the original Academy building in 1854. The new building (later named Foley Hall) was completed in 1858, introducing the German neo-Gothic style called Runbogenstil, or round-arched style, in Indiana. Other early works at Saint Mary-of-the-Woods included a convent building and Corbe House.
