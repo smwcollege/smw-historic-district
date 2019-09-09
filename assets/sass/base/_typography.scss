@@ -41,3 +41,16 @@ ul {
 li {
   line-height: 1.5em;
 }
+
+blockquote {
+  color: $primary;
+  font-family: Vollkorn, serif;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.attribution {
+  padding-left: 40px;
+  font-weight: bold;
+  color: #4c4c4c;
+}
