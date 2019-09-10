@@ -5,45 +5,22 @@ layout: page
     <h1>{{ page.title }}</h1>
     {{ content }}
     <section class="events">
+        {% for event in site.data.events %}
         <div class="event">
-            <h2>D.A. Bohlen and Son: Influential Architecture in Indiana and at Saint Mary-of-the-Woods Historic District</h2>
+            <h2>{{ event.name }}</h2>
             <div class="two-column">
                 <div class="column">
-                    <div class="info">Oct. 3, 2019</div>
+                    <div class="info">{{ event.date }}</div>
                 </div>
                 <div class="column">
-                        <div class="info">Cook Theater, Indiana Landmarks Center</div>
+                        <div class="info">{{ event.location }}</div>
                     </div>
             </div>
-            <p><strong>Presentation 6-7 p.m. Admission is free. Cash bar 5:30-6 p.m. (EDT)</strong></p>
-            <p>From 1853 to 1968, four generations of the Bohlen family of Indianapolis designed exceptional buildings across Indiana. On October 3, architectural historian Dr. James Glass will present insights into examples of Bohlen architecture that include French Lick Springs Hotel, Shelby County Courthouse, and the Murat Temple in Indianapolis. D.A. Bohlen and Son also designed Indiana Landmarks’ Morris-Butler House, Crown Hill’s Gothic Chapel and most of the buildings for the Sisters of Providence and Saint Mary-of-the-Woods College near Terre Haute. The presentation will feature historic illustrations and photos of landmarks still-in-use and others lost, including the English Opera House and Hotel on Monument Circle.</p>
-            <p>Jointly presented by Sisters of Providence and Saint Mary-of-the-Woods College, this program is made possible through a Historic Preservation Education Grant from Indiana Landmarks, Indiana Humanities, and the National Endowment for the Humanities; with additional support by the Terre Haute Convention and Visitors Bureau.</p>
+            {{ event.description | markdownify }}
+            {% if event.url %}
+            <a href="{{ event.url }}" class="button">Register online <i class="fas fa-chevron-right"></i></a>
+            {% endif %}
         </div>
-        <div class="event">
-            <h2>D.A. Bohlen and Son: Influential Architecture in Indiana and at Saint Mary-of-the-Woods Historic District</h2>
-            <div class="two-column">
-                <div class="column">
-                    <div class="info">Oct. 20, 2019</div>
-                </div>
-                <div class="column">
-                        <div class="info">Cecilian Auditorium, SMWC Conservatory of Music</div>
-                    </div>
-            </div>
-            <p><strong>Presentation 1-2 p.m. Building tour 2:15 p.m. (EDT) Admission is free. Brunch may be purchased in historic O’Shaughnessy Hall prior to the lecture.</strong></p>
-            <p>Designed primarily by D.A. Bohlen and Son, the campus of Saint Mary-of-the-Woods (SMW) Historic District is an outstanding representation of four generations of work by Indiana’s oldest and longest-existing architectural firm. Noted architectural historian Dr. James Glass will present on Bohlen design across Indiana and at SMW, many of which are listed on the National Register of Historic Places. The presentation will feature historic illustrations, Bohlen correspondences, and photos of landmarks such as the Morris-Butler House and Murat Temple in Indianapolis, French Lick Springs Hotel, and Shelby County Courthouse, along with examples from the recently listed SMW Historic District.</p>
-            <p>Jointly presented by Sisters of Providence and Saint Mary-of-the-Woods College, this program is made possible through a Historic Preservation Education Grant from Indiana Landmarks, Indiana Humanities, and the National Endowment for the Humanities; with additional support by the Terre Haute Convention and Visitors Bureau.</p>
-            <p>For more information, call XXX-XXX-XXXX.</p>
-        </div>
-        <div class="event">
-            <h2>Exhibit: D.A. Bohlen Design at Saint Mary-of-the-Woods Historic District</h2>
-            <div class="two-column">
-                <div class="column">
-                    <div class="info">Aug. 7 – Oct. 4, 2020</div>
-                </div>
-                <div class="column">
-                        <div class="info">Swope Art Museum, Terre Haute, IN</div>
-                    </div>
-            </div>
-        </div>
+        {% endfor %}
     </section>
 </div>

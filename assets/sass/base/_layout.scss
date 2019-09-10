@@ -105,6 +105,39 @@ iframe.fullwidth {
     font-size: 28px;
 }
 
+.button {
+    color: white;
+    background: $primary;
+    padding: 15px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    -webkit-border-radius: 10px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease; 
+
+    &:hover {
+        background: $accent;
+    }
+
+    svg {
+        margin-left: 10px;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; 
+    }
+
+    &:hover svg {
+        margin-left: 14px;
+    }
+}
+
 // TEMPALTE: ABOUT
 
 #locations {
