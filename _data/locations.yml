@@ -22,6 +22,24 @@
   thumb: Christ-the-Teacher-sm.jpg
   type: object
 
+- name: Church of the Immaculate Conception
+  year: Exterior 1891, Interior 1907
+  slug: church-of-the-immaculate-conception
+  thumb: church-of-the-immaculate-conception-sm.jpg
+  type: building
+
+- name: Conservatory of Music
+  year: 1913
+  slug: conservatory-of-music
+  thumb: Conservatory-of-Music-sm.jpg
+  type: building
+
+- name: Corbe House
+  year: 1884
+  slug: corbe-house
+  thumb: Corbe-House-exterior-sm.jpg
+  type: building
+
 - name: Fountain
   year: 1920
   slug: fountain
@@ -45,6 +63,12 @@
   slug: grotto-bridge
   thumb: Bridge-sm.jpg
   type: structure
+
+- name: Guerin Hall
+  year: 1913
+  slug: guerin-hall
+  thumb: Guerin-Hall-Exterior-sm.jpg
+  type: building
 
 - name: Hulman Hall
   year: 1969
@@ -70,6 +94,12 @@
   thumb: #
   type: structure
 
+- name: O’Shaughnessy Dining Hall
+  year: 1921
+  slug: oshaughnessy-dining-hall
+  thumb: #
+  type: building
+
 - name: Our Lady of the Campus Statue
   year: 1904
   slug: our-lady-of-the-campus-statue
@@ -94,9 +124,27 @@
   thumb: #
   type: object
 
+- name: Owens Hall
+  year: 1958
+  slug: owens-hall
+  thumb: #
+  type: building
+
+- name: Providence Hall
+  year: 1889-1902
+  slug: providence-hall
+  thumb: #
+  type: building
+
 - name: Rooney Library
   year: 1964
   slug: rooney-library
+  thumb: #
+  type: building
+
+- name: Saint Anne Shell Chapel
+  year: 1844/1876
+  slug: saint-anne-shell-chapel
   thumb: #
   type: building
 
@@ -111,3 +159,27 @@
   slug: sheridan-landscape-plan
   thumb: #
   type: structure
+
+- name: Stables
+  year: 1925
+  slug: stables
+  thumb: #
+  type: building
+
+- name: Water Plant
+  year: 1919/1920
+  slug: water-plant
+  thumb: #
+  type: building
+
+- name: White Violet Center
+  year: 1948
+  slug: white-violet-center
+  thumb: #
+  type: building
+
+- name: Woodland Inn
+  year: 1894
+  slug: woodland-inn
+  thumb: #
+  type: building
