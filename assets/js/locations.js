@@ -101,7 +101,7 @@ class Demo {
     
     if (value === 'date-created') {
       options = {
-        reverse: true,
+        //reverse: true,
         by: sortByDate,
       };
     } else if (value === 'title') {
