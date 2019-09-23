@@ -8,7 +8,7 @@ layout: page
 <section id="locations">
     <div class="container">
         <div class="row">
-            <div class="col-12@sm col-6@md">
+            <div class="col-12@sm col-5@md">
                 <div class="filters-group">
                     <input class="textfield filter__search js-shuffle-search" type="search" id="filters-search-input" />
                 </div>
@@ -20,26 +20,11 @@ layout: page
                     <button class="btn btn--primary" data-group="object">Objects</button>
                 </div>
             </div>
-            <div class="col-12@sm col-3@md">
-                <fieldset class="filters-group">
-                    <div class="btn-group sort-options">
-                    <label class="btn active">
-                        <input type="radio" name="sort-value" value="dom" checked /> Default
-                    </label>
-                    <label class="btn">
-                        <input type="radio" name="sort-value" value="title" /> Title
-                    </label>
-                    <label class="btn">
-                        <input type="radio" name="sort-value" value="date-created" /> Date Created
-                    </label>
-                    </div>
-                </fieldset>
-            </div>
         </div>
     </div>
     <div id="grid" class="row my-shuffle-container">
         {% for location in site.data.locations %}
-            <figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups='["{{ location.type }}"]' data-date-created="{{ location.date-created }}" data-title="{{ location.name }}" >
+            <figure class="col-3@xs col-4@sm col-3@md picture-item" data-groups='["{{ location.type }}"]' data-title="{{ location.name }}" >
                 <a href="/locations/{{ location.slug }}">
                     <div class="picture-item__inner">
                         <div class="aspect aspect--16x9">
