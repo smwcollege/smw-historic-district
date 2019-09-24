@@ -11,11 +11,6 @@
     padding: 0;
     }
 
-    img {
-    display: block;
-    max-width: 100%;
-    }
-
 /*
   Shuffle needs either relative or absolute positioning on the container
   It will set it for you, but it'll cause another style recalculation and layout.
@@ -33,9 +28,9 @@
 }
 
 $picture-gutter: 24px;
-$item-height: 220px;
+$item-height: 300px;
 .picture-item {
-  height: 220px;
+  height: 300px;
   margin-top: $picture-gutter;
 
   img {
@@ -52,6 +47,10 @@ $item-height: 220px;
   }
 }
 
+figure a {
+  text-decoration: none;
+}
+
 .picture-item--h2 {
   height: ($item-height * 2) + $picture-gutter; /* 2x the height + 1 gutter */
 }
@@ -59,14 +58,14 @@ $item-height: 220px;
 .picture-item__inner {
   position: relative;
   height: 100%;
-  overflow: hidden;
-  background: #ecf0f1;
+  background: #ffffff;
+
+  a:hover & {
+    background: #42592C;
+  }
 }
 
 .picture-item__details {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
   width: 100%;
   padding: 1em;
 }
@@ -78,14 +77,28 @@ $item-height: 220px;
 }
 
 .picture-item__title {
-  flex-shrink: 0;
   margin-right: 4px;
+  font-family: 'Vollkorn', serif;
+  font-weight: 400;
+  color: #42592C;
+  font-size: 18px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  a:hover & {
+    color: #ffffff;
+  }
 }
 
 .picture-item__tags {
-  flex-shrink: 1;
-  text-align: right;
-  margin: 0;
+  margin: .4em 0 0 0;
+  color: #000000;
+
+  a:hover & {
+    color: #ffffff;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -140,7 +153,7 @@ $item-height: 220px;
   padding: 0;
   margin-top: 0;
   margin-bottom: 4px;
-  color: #95a5a6;
+  color: #a3a3a3;
 }
 
 .filters-group {
@@ -155,6 +168,15 @@ $item-height: 220px;
     justify-content: space-between;
   }
 }
+
+.btn-group {
+  width: 100%;
+  
+  @media screen and (min-width: 768px) {
+    width: unset;
+  }
+}
+
 .btn-group:after,.btn-group:before {
   content: " ";
   display: table
@@ -166,11 +188,16 @@ $item-height: 220px;
 
 .btn-group .btn {
   float: left;
-  border-radius: 0
+  border-radius: 0;
+  width: 33.3%;
+
+  @media screen and (min-width: 768px) {
+    width: unset;
+  }
 }
 
 .btn-group .btn:first-child {
-  border-radius: 3px 0 0 3px
+  border-radius: 16px 0 0 16px
 }
 
 .btn-group .btn:not(:first-child) {
@@ -178,7 +205,7 @@ $item-height: 220px;
 }
 
 .btn-group .btn:last-child {
-  border-radius: 0 3px 3px 0
+  border-radius: 0 16px 16px 0
 }
 
 .btn-group label.btn input[type=radio] {
@@ -189,11 +216,11 @@ $item-height: 220px;
 
 .btn {
   display: inline-block;
-  padding: .75em .8em;
+  padding: .75em 1em;
   text-align: center;
-  border-radius: 3px;
-  border: 1px solid #34495e;
-  color: #34495e;
+  border-radius: 16px;
+  border: 1px solid #42592C;
+  color: #42592C;
   font-size: 1rem;
   background-color: rgba(52,73,94,0);
   transition: .2s ease-out;
@@ -205,58 +232,47 @@ $item-height: 220px;
   .btn:hover {
     color:#fff;
     text-decoration: none;
-    background-color: #34495e
+    background-color: #42592C
   }
 }
 
 .btn:focus {
   outline-width: 0;
-  box-shadow: 0 0 0 2px rgba(52,73,94,.4)
 }
 
 .btn.active,.btn:active {
   box-shadow: inset 0 1px 2px rgba(0,0,0,.3);
   color: #fff;
-  background-color: #34495e
-}
-
-.btn:focus.active {
-  box-shadow: inset 0 1px 2px rgba(0,0,0,.3),0 0 0 2px rgba(52,73,94,.4)
+  background-color: #42592C
 }
 
 .btn:disabled {
   cursor: not-allowed;
   opacity: .7;
-  color: #34495e;
+  color: #42592C;
   background-color: rgba(52,73,94,0)
 }
 
 .btn--primary {
-  color: #3498db;
-  border-color: #3498db;
-  background-color: rgba(52,152,219,0)
+  color: #ffffff;
+  background-color: #42592C;
 }
 
 @media (-moz-touch-enabled:0),(pointer: fine) {
   .btn--primary:hover {
-    background-color:#3498db
+    background-color:#ffffff;
+    color: #42592C;
   }
 }
 
-.btn--primary:focus {
-  box-shadow: 0 0 0 2px rgba(52,152,219,.4)
-}
-
 .btn--primary.active,.btn--primary:active {
-  background-color: #3498db
-}
-
-.btn--primary:focus.active {
-  box-shadow: inset 0 1px 2px rgba(0,0,0,.3),0 0 0 2px rgba(52,152,219,.4)
+  background-color: #ffffff;
+  color: #42592C;
+  border-color: #42592C;
 }
 
 .btn--primary:disabled {
-  color: #3498db;
+  color: #42592C;
   background-color: rgba(52,152,219,0)
 }
 
@@ -272,75 +288,75 @@ $item-height: 220px;
   -webkit-appearance: none;
   box-sizing: border-box;
   width: 100%;
-  border: 2px solid #95a5a6;
-  border-radius: 4px;
-  padding: .5em;
+  border: 1px solid #707070;
+  border-radius: 40px;
+  padding: .75em 1em;
   font-size: 1rem;
-  color: #34495e;
+  color: #000000;
   transition: .15s
 }
 
 .textfield::-webkit-input-placeholder {
-  color: #95a5a6;
+  color: #a3a3a3;
   transition: .15s
 }
 
 .textfield:-ms-input-placeholder {
-  color: #95a5a6;
+  color: #a3a3a3;
   transition: .15s
 }
 
 .textfield::-ms-input-placeholder {
-  color: #95a5a6;
+  color: #a3a3a3;
   transition: .15s
 }
 
 .textfield::placeholder {
-  color: #95a5a6;
+  color: #a3a3a3;
   transition: .15s
 }
 
 .textfield:hover {
   outline-width: 0;
-  color: #5d6d77;
-  border-color: #5d6d77
+  color: #000000;
+  border-color: #4E4E4E;
 }
 
 .textfield:hover::-webkit-input-placeholder {
-  color: #5d6d77
+  color: #000000
 }
 
 .textfield:hover:-ms-input-placeholder {
-  color: #5d6d77
+  color: #000000
 }
 
 .textfield:hover::-ms-input-placeholder {
-  color: #5d6d77
+  color: #000000
 }
 
 .textfield:hover::placeholder {
-  color: #5d6d77
+  color: #000000
 }
 
 .textfield:focus {
   outline-width: 0;
-  border-color: #34495e
+  border-color: #000000
 }
 
 .textfield:focus::-webkit-input-placeholder {
-  color: #34495e
+  color: #000000
 }
 
 .textfield:focus:-ms-input-placeholder {
-  color: #34495e
+  color: #000000
 }
 
 .textfield:focus::-ms-input-placeholder {
-  color: #34495e
+  color: #000000
 }
 
 .textfield:focus::placeholder {
-  color: #34495e
+  color: #000000
 }
 
 // bootstrap3-like grid
@@ -378,6 +394,16 @@ $item-height: 220px;
 .row .row {
   margin-left: -8px;
   margin-right: -8px;
+}
+
+.flex-centered {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  @media screen and (min-width: 768px) {
+    margin-top: 0;
+  }
 }
 
 /* Ensure images take up the same space when they load */
@@ -544,6 +570,10 @@ $item-height: 220px;
 
   .row {
     max-width: 1200px;
+  }
+
+  .row-sm {
+    max-width: 800px;
   }
 }
 

@@ -9,7 +9,7 @@ Saint Mary-of-the-Woods Historic District reflects nearly two centuries of educa
 Saint Mary-of-the-Woods College
 ---
 
-The oldest Catholic college in Indiana, Saint Mary-of-the-Woods College offers coeducational campus, online and graduate programs. True to its foundation, a liberal arts curriculum infused with student-centered academic innovation, faith and leadership empowers students to transform themselves, their communities and their world. [Learn more](https://www.smwc.edu/about/history/)
+The oldest Catholic college in Indiana, Saint Mary-of-the-Woods College offers coeducational campus, online and graduate programs. True to its foundation, a liberal arts curriculum infused with student-centered academic innovation, faith and leadership empowers students to transform themselves, their communities and their world. [Learn more &#129058;](https://www.smwc.edu/about/history/)
 
 > “We’ve always known The Woods to be a special place which has touched and changed many lives for generations. Now, the nation has recognized its significance and we are incredibly proud.”
 
@@ -18,13 +18,13 @@ The oldest Catholic college in Indiana, Saint Mary-of-the-Woods College offers c
 The Sisters of Providence
 ---
 
-The Sisters of Providence is community of Roman Catholic women religious (vowed sisters). They live out Jesus’ radical Gospel message by dedicating their lives to love, mercy and justice. The Sisters of Providence collaborate with others to create a more just and hope-filled world through prayer, education, service and advocacy. They minister across the United States and in Asia. [Learn more](https://spsmw.org/about/)
+The Sisters of Providence is community of Roman Catholic women religious (vowed sisters). They live out Jesus’ radical Gospel message by dedicating their lives to love, mercy and justice. The Sisters of Providence collaborate with others to create a more just and hope-filled world through prayer, education, service and advocacy. They minister across the United States and in Asia. [Learn more &#129058;](https://spsmw.org/about/)
 
 > “When people visit Saint Mary-of-the-Woods for the first time, they are always overwhelmed by its beauty and peacefulness. It is a place made sacred not only by the beauty of the buildings and the environment but by the people who have walked here, the spirituality that has been shared here, by the work of education and now health care that takes place here.”
 
 <div class="attribution">Dawn Tomaszewski, SP, ’74, General Superior, Sisters of Providence of Saint Mary-of-the-Woods</div>
 
-![fullwidth-image](/assets/images/smw_avenue.jpg){:class="fullwidth"}
+![fullwidth-image](/assets/images/locations/Conservatory-of-Music.jpg){:class="fullwidth"}
 
 The Bohlen Architects
 ---
