@@ -24,7 +24,7 @@ The Sisters of Providence is community of Roman Catholic women religious (vowed 
 
 <div class="attribution">Dawn Tomaszewski, SP, ’74, General Superior, Sisters of Providence of Saint Mary-of-the-Woods</div>
 
-![Conservatory of Music](/assets/images/locations/Conservatory-of-Music.jpg){:class="fullwidth"}
+![The Outdoor Way of the Cross](/assets/images/locations/Outdoor-Way-of-the-Cross.jpg){:class="fullwidth"}
 
 The Bohlen Architects
 ---
