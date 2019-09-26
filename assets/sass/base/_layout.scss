@@ -40,6 +40,7 @@
 
         img {
             width: 100%;
+            max-height: 245px;
             object-fit: cover;
         }
 
@@ -80,16 +81,19 @@
     }
 }
 
+.fullwidth {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    @include breakpoint(tablet) {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+}
+
 img.fullwidth {
     height: 300px;
     object-fit: cover;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-
-iframe.fullwidth {
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .fullwidth {
@@ -99,6 +103,35 @@ iframe.fullwidth {
     right: 50%;
     margin-left: -50vw;
     margin-right: -50vw;
+}
+
+.image {
+    img {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    figcaption {
+        color: $accent;
+    }
+}
+
+.right-align {
+    float: right;
+    padding: 0 0 20px 20px;
+
+    @include breakpoint(laptop) {
+        margin-right: -30px;
+    }
+}
+
+.left-align {
+    float: left;
+    padding: 0 20px 20px 0;
+
+    @include breakpoint(laptop) {
+        margin-left: -30px;
+    }
 }
 
 .label {
