@@ -36,6 +36,7 @@
 
         @include breakpoint(mobileonly) {
             padding-bottom: 40px;
+            margin: 0 auto;
         }
 
         img {
