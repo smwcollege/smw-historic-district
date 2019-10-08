@@ -49,6 +49,10 @@ $item-height: 300px;
 
 figure a {
   text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .picture-item--h2 {
@@ -94,7 +98,8 @@ figure a {
 
 .picture-item__tags {
   margin: .4em 0 0 0;
-  color: #000000;
+  color: #000;
+  font-weight: 500;
 
   a:hover & {
     color: #ffffff;

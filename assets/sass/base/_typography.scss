@@ -28,9 +28,11 @@ h2 {
 
 a {
   color: $accent;
+  font-weight: 700;
+  text-decoration: none;
 
   &:hover {
-    text-decoration: none;
+    text-decoration: underline;
   }
 }
 
@@ -53,4 +55,8 @@ blockquote {
   padding-left: 40px;
   font-weight: bold;
   color: #4c4c4c;
+}
+
+.fa-external-link {
+  font-size: .8em;
 }
