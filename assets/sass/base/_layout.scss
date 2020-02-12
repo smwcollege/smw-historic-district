@@ -56,8 +56,12 @@
             }
         }
 
-        &:hover h2 {
-            color: $accent;
+        &:hover {
+            background-color: #ffffff;
+
+            h2 {
+                color: $accent;
+            }
         }
 
         .cta-description {
