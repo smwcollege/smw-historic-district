@@ -1,6 +1,6 @@
 ---
 layout: location
-title: Lourdes Hall (Infirmiary Building)
+title: Lourdes Hall (Infirmiry Building)
 year: 1921
 style: Classical Revival
 architect: D.A. Bohlen and Son
